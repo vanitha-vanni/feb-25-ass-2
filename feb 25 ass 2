@@ -1,0 +1,22 @@
+l=[]
+b=[]
+n=int(input('enter n'))
+for i in range(1,n+1):
+    x=int(input())
+    l.append(x)
+c=0
+for i in range(n):
+    if l[i]!=0:
+        c=c+1
+        b.append(l[i])
+print('count',c)
+print('non zero numbers',b)
+enter n6
+5
+0
+3
+8
+0
+2
+count 4
+non zero numbers [5, 3, 8, 2]output:
